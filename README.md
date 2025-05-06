@@ -1,29 +1,74 @@
+# 💰 Loan Calculator App
+
+A modern, responsive **Loan EMI Calculator** built with **React.js**, **Vite**, and **Material UI**, designed to help users calculate monthly EMIs, view amortization schedules, and switch between different currencies.
+
+🌐 **Live Demo**: [Loan Calculator App](https://delicate-daffodil-640ce9.netlify.app/)
+
+---
+
+## 📸 Features
+
+- 🔢 EMI Calculation (based on principal, interest, and tenure)
+- 🌍 Currency conversion support (via exchange rates API)
+- 📅 Amortization schedule (month-by-month breakdown)
+- 🌗 Dark/light mode (UI handled with MUI themes)
+- ✅ Real-time form validation
+- 📱 Responsive design (works on all screen sizes)
+
+---
+
+## 🚀 Tech Stack
+
+- ⚛️ React.js
+- ⚡ Vite
+- 🎨 Material UI (MUI)
+- 🔁 React Router
+- 🌐 Custom hooks (useEMICalculator, useExchangeRates)
+- 📦 Netlify (for deployment)
+
+---
+
+A responsive and interactive loan EMI calculator built with **React.js**, **Vite**, and **Material UI**.
+
+## 🚀 Getting Started
+
+### Installation Steps
+
+1. Clone the repository:
+git clone https://github.com/your-username/loan-calculator.git
+
+2. Install dependencies:
+npm install
+
+3. Run the application:
+npm run dev
 
 
-# 💸 EMI Calculator App
 
-A fully-featured Loan EMI Calculator built with **React.js**, **Material UI**, and **custom hooks**. This application helps users calculate monthly loan payments and view a detailed amortization schedule, with support for multi-currency conversion using real-time exchange rates.
+### 📦 Technologies Used
+- React.js
+- Vite
+- Material UI (MUI)
+- JavaScript
 
-## 🚀 Live Demo
+### 📸 Features
+- Calculate EMI instantly
+- Responsive design
+- Currency conversion
+- Amortization table
 
-[Click here to try the app](https://your-deployment-link.com)
+## 📁 Folder Structure
 
-## 📌 Features
-
-- 📊 Calculate EMI based on loan amount, interest rate, and tenure
-- 🌐 Multi-currency support with real-time exchange rate conversion
-- 📋 View detailed amortization schedules month-wise
-- ✅ Input validation with user-friendly error messages
-- ♻️ Reset functionality to clear form and results
-- 🌙 Light and Dark Mode support (if added)
-
-## 🧰 Tech Stack
-
-- **React.js** – Component-based frontend development
-- **Vite** – Fast React build tool
-- **Material UI (MUI)** – For responsive UI components
-- **React Router** – For client-side routing
-- **Custom Hooks** – `useEMICalculator`, `useExchangeRates` for logic separation
-
-## 📁 Project Structure
-
+loan-calculator/
+├── public/
+├── src/
+│ ├── components/ # Reusable components
+│ ├── hooks/ # Custom React hooks
+│ ├── pages/ # Page components like Home, About
+│ ├── App.jsx # Root component
+│ ├── main.jsx # App entry point
+│ └── styles/ # Optional custom CSS or theme overrides
+├── README.md
+├── index.html
+├── package.json
+└── vite.config.js
