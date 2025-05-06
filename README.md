@@ -1,12 +1,29 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+# 💸 EMI Calculator App
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A fully-featured Loan EMI Calculator built with **React.js**, **Material UI**, and **custom hooks**. This application helps users calculate monthly loan payments and view a detailed amortization schedule, with support for multi-currency conversion using real-time exchange rates.
 
-## Expanding the ESLint configuration
+## 🚀 Live Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+[Click here to try the app](https://your-deployment-link.com)
+
+## 📌 Features
+
+- 📊 Calculate EMI based on loan amount, interest rate, and tenure
+- 🌐 Multi-currency support with real-time exchange rate conversion
+- 📋 View detailed amortization schedules month-wise
+- ✅ Input validation with user-friendly error messages
+- ♻️ Reset functionality to clear form and results
+- 🌙 Light and Dark Mode support (if added)
+
+## 🧰 Tech Stack
+
+- **React.js** – Component-based frontend development
+- **Vite** – Fast React build tool
+- **Material UI (MUI)** – For responsive UI components
+- **React Router** – For client-side routing
+- **Custom Hooks** – `useEMICalculator`, `useExchangeRates` for logic separation
+
+## 📁 Project Structure
+
