@@ -17,7 +17,6 @@ import Button from "@mui/material/Button";
 import DarkModeToggle from "./DarkModeToggle";
 import { NavLink } from "react-router-dom";
 
-
 const drawerWidth = 240;
 const navItems = [
   { label: "HOME", path: "/" },
@@ -36,7 +35,6 @@ const navLinkStyles = ({ isActive }) => ({
   },
 });
 
-
 function DrawerAppBar(props) {
   const { window } = props;
   const [mobileOpen, setMobileOpen] = React.useState(false);
@@ -52,20 +50,19 @@ function DrawerAppBar(props) {
       </Typography>
       <Divider />
       <List>
-  {navItems.map(({ label, path }) => (
-    <ListItem key={label} disablePadding sx={{ mb: 1 }}>
-      <ListItemButton
-        component={NavLink}
-        to={path}
-        style={navLinkStyles}
-        sx={{ textAlign: 'center' }}
-      >
-        <ListItemText primary={label} />
-      </ListItemButton>
-    </ListItem>
-  ))}
-</List>
-
+        {navItems.map(({ label, path }) => (
+          <ListItem key={label} disablePadding sx={{ mb: 1 }}>
+            <ListItemButton
+              component={NavLink}
+              to={path}
+              style={navLinkStyles}
+              sx={{ textAlign: "center" }}
+            >
+              <ListItemText primary={label} />
+            </ListItemButton>
+          </ListItem>
+        ))}
+      </List>
     </Box>
   );
 
@@ -82,7 +79,6 @@ function DrawerAppBar(props) {
             aria-label="open drawer"
             edge="start"
             onClick={handleDrawerToggle}
-           
             sx={{ mr: 2, display: { sm: "none" } }}
           >
             <MenuIcon />
@@ -118,13 +114,15 @@ function DrawerAppBar(props) {
           open={mobileOpen}
           onClose={handleDrawerToggle}
           ModalProps={{
-            keepMounted: true, // Better open performance on mobile.
+            keepMounted: true, 
           }}
           sx={{
             display: { xs: "block", sm: "none" },
             "& .MuiDrawer-paper": {
               boxSizing: "border-box",
               width: drawerWidth,
+              backgroundColor: "#0d47a1", 
+              color: "#fff", 
             },
           }}
         >

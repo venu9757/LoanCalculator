@@ -28,6 +28,7 @@ const EMICalculator = () => {
     tenure,
     setTenure,
     emi,
+    setEMI,
     calculateEMI,
     schedule,
     
@@ -79,6 +80,7 @@ const EMICalculator = () => {
     setPrincipal("");
     setRate("");
     setTenure("");
+    setEMI("");
   
    
     setSelectedCurrency("INR");

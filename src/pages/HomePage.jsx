@@ -3,7 +3,7 @@ import EMICalculator from '../components/EMICalculator';
 
 
 const HomePage = () => (
-  <div>  
+  <div >  
 
   <EMICalculator />
     
